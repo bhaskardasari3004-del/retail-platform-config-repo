@@ -1,1 +1,22 @@
+server:
+  port: 8081
 
+spring:
+  application:
+    name: retail-appservices-customers
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/retail_customers_db
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
