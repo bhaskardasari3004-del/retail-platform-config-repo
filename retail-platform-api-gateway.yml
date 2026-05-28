@@ -4,6 +4,13 @@ server:
 spring:
   application:
     name: retail-platform-api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: customer-service
+        uri: lb://RETAIL-APPSERVICES-CUSTOMERS
+          predicates:
+            - Path=/customers/**
 
 eureka:
   client:
