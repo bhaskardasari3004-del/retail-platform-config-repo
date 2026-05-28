@@ -8,7 +8,7 @@ spring:
     gateway:
       routes:
         - id: customer-service
-        uri: lb://RETAIL-APPSERVICES-CUSTOMERS
+          uri: lb://RETAIL-APPSERVICES-CUSTOMERS
           predicates:
             - Path=/customers/**
 
