@@ -23,7 +23,7 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 
   instance:
-    instance-id: retail-appservices-customers
+    instance-id: CUSTOMERS
     prefer-ip-address: true
     
 
