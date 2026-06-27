@@ -6,6 +6,6 @@ spring:
     name: retail-appservices-payments
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/retail_payments_db
+    url: jdbc:postgresql://localhost:5432/retail_payment_db
     username: postgres
     password: bachisai2012
