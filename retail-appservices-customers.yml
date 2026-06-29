@@ -6,7 +6,7 @@ spring:
     name: retail-appservices-customers
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/retail_customer_db
+    url: jdbc:postgresql://localhost:5432/retail_customers_db
     username: postgres
     password: bachisai2012
 
