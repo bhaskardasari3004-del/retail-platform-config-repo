@@ -6,7 +6,7 @@ spring:
     name: retail-appservices-accounts
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/retail_account_db
+    url: jdbc:postgresql://localhost:5432/retail_accounts_db
     username: postgres
     password: bachisai2012
 
