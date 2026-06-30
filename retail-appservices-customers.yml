@@ -6,9 +6,9 @@ spring:
     name: retail-appservices-customers
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/retail_customers_db
-    username: postgres
-    password: postgres
+    url: jdbc:postgresql://${POSTGRES_HOST:localhost}:5432/retail_customers_db
+    username: ${POSTGRES_USERNAME:postgres}
+    password: ${POSTGRES_PASSWORD:postgres}
 
   jpa:
     hibernate:
